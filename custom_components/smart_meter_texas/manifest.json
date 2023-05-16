@@ -1,11 +1,12 @@
 {
   "domain": "smart_meter_texas",
-  "name": "Smart Meter Texas (Custom)",
+  "name": "Smart Meter Texas (Custom - @adamfeldman)",
+  "codeowners": ["@adamfeldman"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/smart_meter_texas",
-  "requirements": [],
-  "codeowners": ["@grahamwetzler"],
+  "version": "2.0.1",
   "iot_class": "cloud_polling",
-  "version": "v1.0.0",
-  "loggers": ["smart_meter_texas"]
+  "loggers": ["smart_meter_texas"],
+  "requirements": ["smart-meter-texas==0.5.1"],
+  "issue_tracker": "https://github.com/adamfeldman/Smart_Meter_Texas"
 }

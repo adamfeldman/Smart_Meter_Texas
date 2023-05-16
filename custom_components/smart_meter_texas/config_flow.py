@@ -3,8 +3,8 @@ import asyncio
 import logging
 
 from aiohttp import ClientError
-from .api import Account, Client, ClientSSLContext
-from .api.exceptions import (
+from smart_meter_texas import Account, Client, ClientSSLContext
+from smart_meter_texas.exceptions import (
     SmartMeterTexasAPIError,
     SmartMeterTexasAuthError,
 )
