@@ -4,9 +4,9 @@
   "codeowners": ["@adamfeldman"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/smart_meter_texas",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "iot_class": "cloud_polling",
   "loggers": ["smart_meter_texas"],
-  "requirements": ["smart-meter-texas==0.5.3"],
+  "requirements": ["smart-meter-texas==0.5.5"],
   "issue_tracker": "https://github.com/adamfeldman/Smart_Meter_Texas"
 }
